@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login Form</title>
+</head>
+<body>
+<div class="text-center">
+    <h1 style="padding-bottom:6%">Login</h1>
+    <form action="">
+        <table class='main'>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" size="25" maxlength="30" name="name" id="name" placeholder="Enter your name"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" size="25" maxlength="30" name="email" id="email" placeholder="Enter your email"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" size="25" maxlength="30" name="password" id="password" placeholder="Enter Password"></td>
+            </tr>
+        </table>
+        <br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+        <button type="button" class="btn btn-lg btn-block">Submit</button>
+
+    
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap");
+
+body{
+    background-color: #f0f0f3;
+}
+
+.text-center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding: 3% 6%;
+  border-radius: 30px;
+  background: #f0f0f3;
+  box-shadow: inset 4px 4px 5px #c0c0c2, 
+              inset -4px -4px 5px #ffffff;
+}
+
+.text-center:hover {
+    box-shadow:  4px 4px 5px #c0c0c2, 
+     -4px -4px 5px #ffffff;
+}
+
+ .main tr td:nth-child(1) {
+    padding-right: 10%;
+}
+
+
+.text-center h1 {
+  font-family: "Playfair Display", serif;
+}
+
+.text-center form {
+  font-family: "Roboto Slab", serif;
+}
+
+.btn{
+    box-shadow:  4px 4px 5px #c0c0c2, 
+                -4px -4px 5px #ffffff;
+    border-radius: 98px;
+}
+
+.btn:hover {
+    box-shadow:  inset 4px 4px 5px #c0c0c2, 
+    inset -4px -4px 5px #ffffff;
+}
+  
+ 
+input[type=text], input[type=password] {
+  border: none;
+  box-shadow:  4px 4px 10px #c0c0c2, 
+  -4px -4px 10px #ffffff;
+}
+
+input[type=radio] {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  margin-bottom: 4%;
+  margin-right: 4%;
+  margin-left: 4%;
+  cursor: pointer;
+}
+
